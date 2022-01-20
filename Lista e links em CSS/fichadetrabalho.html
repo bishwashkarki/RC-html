@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Trabalho - LISTAS</title>
+    <style>
+        h1{
+            font-size: 35px;
+            text-align: center;
+        }
+        h2{
+            background-color: yellow;
+            color: blue;
+            text-align: center;
+        }
+        #clubes{
+            background-color: grey;
+            color: red;
+            text-align: center;
+            text-decoration: underline;
+        }
+        body{
+            background-color: cornflowerblue;
+            font-size: 25px;
+        }
+        h3{
+            color: crimson;
+        }
+        ul.circle{
+            list-style-type: circle;
+        }
+        ul.disc{
+            list-style-type: disc;
+        }
+        ul.square{
+            list-style-type: square;
+        }
+        ol.decimal{
+            list-style-type: decimal;
+        }
+        ol.roman{
+            list-style-type: upper-roman;
+        }
+        ol.alpha{
+            list-style-type: upper-alpha;
+        }
+        ul {
+            list-style-type: none;
+            }
+
+
+        ul.earth li:before {
+            content: '';
+            display: inline-block;
+            height: 25px;
+            width: 25px;
+            background-size: 25px;
+            background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwebstockreview.net%2Fimages%2Fclipart-earth-planet-earth-4.png&f=1&nofb=1");
+            background-repeat: no-repeat;
+            margin-right: 5px;
+            }
+        ul.porto li:before {
+            content: '';
+            display: inline-block;
+            height: 25px;
+            width: 25px;
+            background-size: 25px;
+            background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogodownload.org%2Fwp-content%2Fuploads%2F2017%2F03%2Ffc-porto-logo.png&f=1&nofb=1");
+            background-repeat: no-repeat;
+            margin-right: 5px;
+            }
+        ul.benifica li:before {
+            content: '';
+            display: inline-block;
+            height: 25px;
+            width: 25px;
+            background-size: 25px;
+            background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F--k8wF7MdCII%2FVwUSDbv0ytI%2FAAAAAAAAGmU%2FuF-ehb4bAa0l7MUNz8ayRDhSybGo95MNQ%2Fs1600%2FSL_Benfica__%252BClub%252BS10_Clubs10.blogspot.com.jpg.png&f=1&nofb=1");
+            background-repeat: no-repeat;
+            margin-right: 5px;
+            }
+        a:link{
+            color: blue;
+            text-decoration: underline;
+        }
+        a:visited{
+            color: #00FF00;
+        }
+        a:hover{
+            color: red;
+            background-color: black;
+            font-weight: bold;
+            font-size: 50px;
+            text-decoration: none;
+        }
+        a:active{
+            color: #0000FF;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <u>
+            FICHA DE TRABALHO - LISTAS
+        </u>
+    </h1>
+    <h2>
+        LISTA DE FILMES
+    </h2>
+    <h3>
+        FILMES DE ACCÃO
+    </h3>
+    <ul class="circle">
+        <li>
+            RAMBO 4
+        </li>
+        <li>
+            OS MERCENARIOS
+        </li>
+        <li>
+            007 - SKYFALL
+        </li>
+    </ul>
+    <h3>
+        FILMES DE AVENTURA
+    </h3>
+    <ul class="disc">
+        <li>
+            INDIANA JONES e o Reino da Caveira de Cristal
+        </li>
+        <li>
+            GOONIES
+        </li>
+        <li>
+            O TESOURO
+        </li>
+    </ul>
+    <h3>
+        FILMES DE COMEDIA
+    </h3>
+    <ul class="square">
+        <li>
+            DOIDOS À SOLTA
+        </li>
+        <li>
+            AMERICAN PIE
+        </li>
+        <li>
+            OS DEUSAS DEVEM ESTAR LOUCOS
+        </li>
+    </ul>
+    <h2>
+        LISTA DE PAÍSES
+    </h2>
+    <ul class="circle">
+        <li>
+            EUROPA
+            <ol class="decimal">
+                <li>
+                    FRANCA
+                </li>
+                <li>
+                    BELGICA
+                </li>
+                <li>
+                    HOLANDA
+                </li>
+            </ol>
+        </li>
+        <li>
+            ÁSIA
+            <ol class="roman">
+                <li>
+                    JAPÃO
+                </li>
+                <li>
+                    CHINA
+                </li>
+                <li>
+                    ÍNDIA
+                </li>
+            </ol>
+        </li>
+        <li>
+            AMERICA
+            <ol class="alpha">
+                <li>
+                    CANADA
+                </li>
+                <li>
+                    MEXICA
+                </li>
+                <li>
+                    ARGENTINA
+                </li>
+            </ol>
+        </li>
+    </ul>
+    <h2>
+        LISTA DE PLANETAS
+    </h2>
+    <ul class="earth">
+        <li>
+            MERCURIO
+        </li>
+        <li>
+            VENUS
+        </li>
+        <li>
+            TERRA
+        </li>
+        <li>
+            MARTE
+        </li>
+        <li>
+            JUPITER
+        </li>
+    </ul>
+    <h2 id="clubes">
+        LISTA DE CLUBES PORTUGUESES
+    </h2>
+    <ul class="porto">
+        <li>
+            <a href="https://www.fcporto.pt/en" target="_blank">FC Porto</a>
+        </li>
+    </ul>
+    <ul class="benifica">
+        <li>
+            <a href="https://www.slbenfica.pt/en-us/" target="_blank">SL Benifica</a>
+        </li>
+    </ul>
+</body>
+</html>
